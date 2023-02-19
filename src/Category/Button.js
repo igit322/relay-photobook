@@ -21,7 +21,6 @@ const StyledButton = styled.button`
   border-width: 0.5px thin;
   display: inline;
   margin: 0px 15px 0px 0px;
-
   &:hover {
     cursor: pointer;
   }

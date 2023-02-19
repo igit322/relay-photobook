@@ -5,51 +5,209 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "GmarketSans";
+  font-weight: 300;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansLight.ttf")
+      format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "GmarketSans";
+  font-weight: 500;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansMedium.ttf")
+      format("truetype");
+  font-display: swap;
+}
+@font-face {
+  font-family: "GmarketSans";
+  font-weight: 700;
+  font-style: normal;
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot");
+  src: url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff2")
+      format("woff2"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.woff")
+      format("woff"),
+    url("https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf")
+      format("truetype");
+  font-display: swap;
+}
+
 body {
   width: 100%;
+  font-family: "GmarketSans";
   /* max-width: 1400px; */
-  /* margin: 0px auto; 
-  text-align: center; */
+  margin: 0px auto;
+  /* text-align: center; */
 }
 
 .navbar {
-  background-color: bisque;
+  background-color: #bb2649;
   display: flex;
   justify-content: space-around;
   padding: 10px 10px;
 }
 
-.custom_input {
-  width: 400px;
-}
-
-.section1_1{
-  
+.navbar .title {
+  color: white;
+  padding: 5px;
 }
 
 .section1 {
   width: 80%;
   height: 800px;
-  background-color: rgba(115, 164, 255, 0.329);
+  /* background-color: rgba(115, 164, 255, 0.329); */
   position: relative;
   left: 10%;
-  top : 25px;
+  top: 25px;
 }
 
 .bookCoverW {
-  width: 200px;
-  height: 300px;
+  width: 273px;
+  height: 400px;
   object-fit: cover;
 }
-
-.section1_left{
-  width: 500px;
-  height: 500px;
-  background-color: brown;
+.section1_left p {
+  font-size: 12px;
 }
 
-.section1_right{
-  width: 200px;
-  height: 300px;
-  background-color: brown;
+.section1_left2 p,
+.section1_left3 p,
+.section1_right p,
+.section1_right2 p {
+  font-size: 12px;
+  width: 370px;
+}
+
+.section1_left {
+  width: 273px;
+  height: 505px;
+  display: inline-block;
+}
+
+.section1_left2 {
+  width: 273px;
+  height: 505px;
+  display: inline-block;
+  position: absolute;
+  left: 300px;
+  top: 140px;
+}
+
+.section1_left3 {
+  width: 273px;
+  /* height: 505px; */
+  display: inline-block;
+  position: absolute;
+  left: 300px;
+  top: 285px;
+}
+
+.section1_right {
+  /* margin: 20px; */
+  height: 505px;
+  display: inline-block;
+  position: absolute;
+  left: 300px;
+}
+
+.section1_right2 {
+  width: 300px;
+  height: 505px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+}
+
+.txt_wrap p {
+  font-size: 12px;
+  text-align: center;
+}
+
+.button_wrap {
+  text-align: center;
+}
+
+.button1 {
+  padding: 7px 22px 7px 22px;
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 6px;
+  background-color: #282828;
+  color: white;
+}
+
+.input_write {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 469px;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+}
+
+.input_write2 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 174px;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid #d9d9d9;
+}
+
+.input_write3 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 665px;
+  height: 112px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+
+.keyword {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  gap: 10px;
+  margin-top: 5px;
+}
+
+.hash {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  /* width: 63px; */
+  height: 28px;
+  padding: 7px 12px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 16px;
+
+  /* margin-top: 10px;
+  text-align: center; */
+  font-family: "Gmarket Sans TTF";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
 }
