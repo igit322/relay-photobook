@@ -49,8 +49,20 @@ const Write = () => {
         <div className="section1_right2">
           <p>연령</p>
           <input type="text" className="input_write2" value="&nbsp;&nbsp;전 연령"></input>
-          <p>릴레이 참여자 수 설정</p>
+
         </div>
+        <div className="section1_right3">
+
+          <p>릴레이 참여자 수 설정</p>
+          <div className="box">
+            <div className="circle circle1"></div>
+            <input type="text" className="num"></input>
+            명
+            <div className="circle circle2"></div>
+          </div>
+
+        </div>
+
         
 
         <div className="section1_left2">
@@ -68,7 +80,7 @@ const Write = () => {
             <div className="hash">중세</div>
             <div className="hash">현대</div>
             <div className="hash">고어</div>
-            <div className="hash">얀대레</div>
+            <div className="hash">얀데레</div>
             <div className="hash">하렘</div>
             <div className="hash">GL</div>
             <div className="hash">BL</div>
@@ -84,9 +96,11 @@ const Write = () => {
           <p>줄거리</p>
           <input type="text" className="input_write3" value="&nbsp;&nbsp;내용을 입력해주세요."></input>
         </div>
+      </div>
 
-
-
+      <div>
+        <button className="cancel"></button>
+        <button className="next"></button>
       </div>
 
 

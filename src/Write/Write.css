@@ -88,11 +88,15 @@ body {
 .section1_left p {
   font-size: 12px;
 }
+.section1_left2 p {
+  text-shadow: 0px 4px 4px rgba(128, 128, 128, 0.751);
+}
 
 .section1_left2 p,
 .section1_left3 p,
 .section1_right p,
-.section1_right2 p {
+.section1_right2 p,
+.section1_right3 p {
   font-size: 12px;
   width: 370px;
 }
@@ -135,6 +139,15 @@ body {
   display: inline-block;
   position: absolute;
   right: 0;
+}
+
+.section1_right3 {
+  width: 300px;
+  height: 505px;
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  top: 70px;
 }
 
 .txt_wrap p {
@@ -210,4 +223,51 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
+  box-shadow: 0px 4px 7px rgba(128, 128, 128, 0.751);
+}
+
+.box {
+  width: 134px;
+  height: 22px;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #ffffff;
+  border: 1px solid #d7d5d5;
+}
+
+.num {
+  width: 50px;
+  height: 22px;
+  border-radius: 6px;
+  border: 1px solid #434343;
+  margin-left: 4px;
+}
+
+.circle1 {
+  margin-right: 12px;
+}
+
+.circle2 {
+  margin-left: 12px;
+}
+
+.cancel{
+  width: 97px;
+  height: 44px;
+  border-radius: 6px;
+  border: 1px solid #000;
+}
+
+.next{
+  width: 97px;
+  height: 44px;
+  border-radius: 6px;
+  background-color: #000000;
 }
